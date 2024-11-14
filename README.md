@@ -12,7 +12,8 @@ TravelSpace is the smart travel companion that plans your trip in seconds! With 
 - **Custom Image Search API:** Integrated to bring visual inspiration, pulling relevant images for your chosen locations.
 - **Interactive Maps:** Explore your destinations with integrated maps, providing an interactive way to preview your trip.
 
-![Alt Text]()
+![Screenshot](./src/assets/Screenshot%202024-11-14%20193254.png)
+
 
 
 ## Technologies Used
