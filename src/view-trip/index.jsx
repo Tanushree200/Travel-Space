@@ -84,12 +84,11 @@ function ViewTrip() {
 
   return (
     <div
-      className="min-h-screen bg-repeat bg-cover bg-center"
+      className="flex items-center justify-center h-full w-full bg-cover bg-center"
       style={{
-        backgroundImage: `url('/src/assets/6345959.jpg')`,
-        backgroundSize: 'contain',
-        backgroundPosition: 'center center',
-      }}
+        backgroundImage: 'url("/src/assets/bg.jpg")',
+        backgroundSize: 'cover', // Ensures the image covers the entire background without stretching
+        backgroundPosition: 'center',  }}
     >
       <div className="sm:px-10 md:px-32 lg:px-56 xl:px-10 px-5 mt-10">
         {/* Location Image at the Top */}
