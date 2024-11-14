@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-const GOOGLE_API_KEY = 'AIzaSyCmEtz6erQ9FY8fyOZLWloVPSTKwpBm3Vc'; // Replace with your Google API key
-const GOOGLE_CX = 'f45faf4bb02d84b23'; // Replace with your Google CSE CX ID
+const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_API_KEY; // Replace with your Google API key
+const GOOGLE_CX = import.meta.env.VITE_GOOGLE_CX; // Replace with your Google CSE CX ID
 
 
 function ViewTrip() {
