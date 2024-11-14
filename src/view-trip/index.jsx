@@ -86,7 +86,7 @@ function ViewTrip() {
     <div
       className="flex items-center justify-center h-full w-full bg-cover bg-center"
       style={{
-        backgroundImage: 'url("/src/assets/bg.jpg")',
+        backgroundImage: 'url("/bg.jpg")',
         backgroundSize: 'cover', // Ensures the image covers the entire background without stretching
         backgroundPosition: 'center',  }}
     >

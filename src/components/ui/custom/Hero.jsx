@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div
       className="flex items-center justify-center h-screen w-full bg-cover bg-center"
-      style={{ backgroundImage: 'url("/src/assets/6345959.jpg")' }} // Update the image path to use forward slashes and ensure it's correct
+      style={{ backgroundImage: 'url("/6345959.jpg")' }} // Update the image path to use forward slashes and ensure it's correct
     >
       <div className="text-center px-8">
         <h1 className="font-extrabold text-[50px] sm:text-[60px] md:text-[70px] lg:text-[80px] mb-4">
